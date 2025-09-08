@@ -7,7 +7,7 @@ const PlayerContextProvider = (props) => {
 	const audioRef = useRef();
 	const seekBg = useRef();
 	const seekBar = useRef();
-	const url = 'https://backend-xyz.onrender.com';
+	const url = 'https://backend-3-9qk6.onrender.com';
 	const [songsData, setSongsData] = useState([]);
 	const [albumData, setAlbumData] = useState([]);
 	const [track, setTrack] = useState(null);
@@ -134,4 +134,5 @@ const PlayerContextProvider = (props) => {
 	);
 };
 export default PlayerContextProvider;
+
 
